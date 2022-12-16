@@ -92,7 +92,7 @@
     opacity: 0.2;
     position: absolute;
     height: 40%;
-    left: 0;
+    right: 0;
     object-fit: cover;
     transform: translateZ(-5px) scale(3);
     z-index: -1;
@@ -103,9 +103,9 @@
     opacity: 0.2;
     position: absolute;
     height: 40%;
-    right: 0;
+    left: 0;
     object-fit: cover;
-    transform: translateZ(-11px) scale(5);
+    transform: translateZ(-11px) scale(6);
     z-index: -1;
 
     top: 2000px;
@@ -116,9 +116,9 @@
     opacity: 0.2;
     position: absolute;
     height: 40%;
-    left: 0;
+    right: 0;
     object-fit: cover;
-    transform: translateZ(-6px) scale(3);
+    transform: translateZ(-6px) scale(3.2);
     z-index: -1;
 
     top: 4000px;
@@ -326,16 +326,40 @@ body {
     height: 320px;
 }
 
+.textForAlb{
+    display: flex;
+    flex-direction: column;
+}
 
-.alb p{
+.textForAlb h2{
     text-align: right;
     margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: GLite;
+}
+
+.textForAlb p{
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 50px;
     /* width: 320px; */
     font-family: GLite;
     font-size: 20px;
 }
 
-.alb-revers p{
+
+.textForAlb-revers h2{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: GLite;
+}
+
+.textForAlb-revers p{
+    margin-right: 50px;
     margin-left: 50px;
     /* width: 320px; */
     font-family: GLite;
@@ -354,14 +378,15 @@ body {
 
 
 
-
-
 @media (max-width: 1600px) {
     .banner {
         flex-direction: column;
     }
-    .randomPhotoFromAlb img{
-        /* height: 400px; */
-        transition: 0.3s;
+    .page {
+        width: 90%;
+    }
+    .about-more {
+        padding-left: 0;
+        padding-top: 5px;
     }
 }
