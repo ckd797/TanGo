@@ -185,6 +185,20 @@ body{
     background-color: rgba(255, 94, 0, 0.432);
 }
 
+.icon{
+    display: flex;
+    color: white;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.icon:hover{
+    box-shadow: rgb(255, 255, 255) 0 0 1vh;
+
+}
 
 .currentAlbum{
     display: flex;
