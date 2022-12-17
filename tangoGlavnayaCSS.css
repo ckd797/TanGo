@@ -187,13 +187,13 @@ border{
 
 }
 
-.faceLink{
+.inAlbumLink{
     background-color: rgba(0, 255, 255, 0.050);
     font-family: GLite;
     font-size: 20px;
 }
 
-.faceLink:hover {
+.inAlbumLink:hover {
     box-shadow: rgb(255, 255, 255) 0 0 1vh;
 }
 
@@ -344,7 +344,6 @@ body {
     text-align: right;
     margin-right: 50px;
     margin-left: 50px;
-    /* width: 320px; */
     font-family: GLite;
     font-size: 20px;
 }
@@ -361,7 +360,6 @@ body {
 .textForAlb-revers p{
     margin-right: 50px;
     margin-left: 50px;
-    /* width: 320px; */
     font-family: GLite;
     font-size: 20px;
 }
