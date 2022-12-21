@@ -232,7 +232,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background: linear-gradient(to right, rgba(0, 255, 255, 0.050), rgba(0, 255, 255, 0)); */
     padding: 1vw;
     margin-top: 3vh;
     text-align: justify;
