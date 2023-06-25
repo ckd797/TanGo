@@ -220,13 +220,15 @@ body {
 
 .banner {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-top: 3vh;
     font-family: GExBold;
     font-size: 30px;
 }
 
 .bannerText{
-    padding-right: 30%;
+    /* padding-right: 30%; */
 }
 
 .nav {
@@ -240,12 +242,16 @@ body {
 
 .randomPhotoFromAlb{
     display: flex;
+    width: 50%;
+    background-image: url(/res/alb/DSC02438.JPG);
     /* background-color: rgba(0, 255, 255, 0.050);
     padding: 1%; */
 }
 
 .randomPhotoFromAlb img{
-    height: 400px;
+    /* object-fit: cover; */
+    width: 100%;
+    /* height: 400px; */
     transition: 0.3s;
 }
 
@@ -257,11 +263,12 @@ body {
 .about-more {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: stretch;
+    width: 50%;
+    /* align-items: stretch; */
     justify-content: space-between;
     padding-left: 20px;
     padding-top: 50px;
+    margin: auto;
 }
 
 .about {
@@ -382,15 +389,15 @@ body {
 }
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1500px) {
     .banner {
         flex-direction: column;
     }
     .page {
-        width: 90%;
+        /* width: 90%; */
     }
     .about-more {
-        padding-left: 0;
-        padding-top: 5px;
+        /* padding-left: 0;
+        padding-top: 5px; */
     }
 }
