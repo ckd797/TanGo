@@ -374,6 +374,12 @@ body {
     transition: 0.3s;
 }
 
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 
 
 @media (max-width: 1600px) {
